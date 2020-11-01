@@ -1,0 +1,124 @@
+/*color scheme **/
+/*
+#990000 - red 
+#FF3333 - light red
+#330066 - blue
+#333399 - light blue
+*/
+
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*****HEADER********/
+header {
+  width: 100%;
+
+}
+
+.headerFirstLevel {
+  width: 100%;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.logo {
+  padding: .5em;
+  margin: 1em;
+
+  color: white;
+  background-color: red;
+}
+
+.logoName {
+  font-size: 1.8em;
+}
+
+.slogan {
+  font-size: 2.5em;
+  margin-left: 3em;
+}
+
+.headerSecondLevel {
+  width: 100%;
+  
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+
+  padding: .3em;
+  padding-left: 12em;
+  font-size: 1.4em;
+  color: white;
+  background-color: blue;
+}
+
+
+/****end header****/
+
+/*****MAIN*****/
+main {
+width: 100%;
+  flex-grow: 1;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  
+}
+
+nav {
+  width: 20em; 
+  align-self: stretch;
+
+  display: flex;
+  flex-direction: column;
+
+  background-color: blue;
+color: white;
+  border-right: 3px solid blue;
+
+}
+
+nav > ul {
+  font-size: 1.6em;
+  font-weight: 800;
+  padding: .2em;
+}
+
+li {
+  font-size: 1.4rem;
+  padding: .2em;
+}
+
+section {
+  padding-left: em;
+}
+/*****end main*****/
+
+/*****FOOTER*****/
+footer {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+
+  padding: 1em;
+  border-top: 3px solid blue;
+}
+
+footer >* {
+  margin-right: 1.5em;
+}
+
+/*****end footer****/
