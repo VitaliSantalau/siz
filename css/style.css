@@ -2,8 +2,11 @@
 /*
 #990000 - red 
 #FF3333 - light red
-#330066 - blue
-#333399 - light blue
+
+#333399 - blue
+#3e5bb8 - blue 2
+#3d54bb - blue 3 - primary
+#275fb8 - blue from globe
 #000000 - black
 #373737 - light black
 #ffffff - white
@@ -74,7 +77,7 @@ header {
   font-weight: 500;
   padding-left: 25rem;
   color: #f5f8f9;
-  background-color: #333399;
+  background-color: #275fb8;
 }
 
 .headerSecondLevel>* {
@@ -143,7 +146,7 @@ footer {
 
 
   color: #f5f8f9;
-  background-color: #333399;
+  background-color: #275fb8;
 }
 
 footer >* {
