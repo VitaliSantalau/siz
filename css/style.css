@@ -170,24 +170,22 @@ main {
 .group {
   width: 100%;
   font-size: 1.8rem;
-  margin-bottom: 1em;
   height: 1.4em;
-  text-align: right;
-  padding-right: 1em;
+  text-align: left;
+  padding-left: 2em;
   color: #f5f8f9;
-  background-color: rgba(39, 95, 184, .6);
+  background-color: rgba(39, 95, 184, .7);
   border-top-right-radius: .5em;
   border-bottom-right-radius: .5em;
 }
 
-.group:hover {
-  color: #f5f8f9;
-  background-color: #FF3333;
-}
-
 .subgroup {
   font-size: 1.6em;
+  text-align: left;
+  padding-left: 2em;
   color: #275fb8;
+  border: 1px solid;
+
 }
 
 .subgroup:hover {
