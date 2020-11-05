@@ -1,0 +1,15 @@
+.foot ~ .containerSubgroup .boots {
+  color: #000000;
+}
+
+.foot ~ .containerSubgroup .berts {
+  color: #FF3333;
+}
+
+.БерцыМастер {
+  background-image: url(../images/Берцы\ Мастер.png);
+}
+
+.БерцыМастерУ {
+  background-image: url(../images/Берцы\ Мастер\ У.png);
+}
