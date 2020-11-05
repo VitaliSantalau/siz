@@ -42,6 +42,7 @@ header {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  padding-top: 1rem;
 }
 
 .logo {
@@ -50,7 +51,7 @@ header {
   margin: 1em;
 }
 
-.iconLogo {
+.headerIconLogo {
   height: 5em;
   width: auto;
 }
@@ -151,16 +152,15 @@ header {
 main {
   width: 100%;
   flex-grow: 1;
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;  
+  display: flex; 
 }
 
 .navCatalog {
-  width: 30em;
+  width: 40em;
   display: flex;
   flex-direction: column;
   margin-right: 5em;
+  margin-bottom: 5em;
 }
 
 .wordCATALOG {
@@ -176,9 +176,9 @@ main {
   width: 100%;
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   font-size: 1.6rem;
-  height: 2.3rem;
-  padding-left: 4rem;
+  padding: .2em 0 .2em 4rem;
   color: #f5f8f9;
   background-color: rgba(39, 95, 184, .9);
   border-top-right-radius: 1em;
@@ -198,33 +198,32 @@ main {
   color: #FF3333;
 }
 
-.footwear ~ .containerSubgroup .summer {
+.footwear ~ .containerSubgroup .boots {
   color: #FF3333;
 }
 
-.product {
+.products {
   flex-grow: 1;
   display: flex;
   flex-wrap: wrap;
   margin-top: 3rem;
-}
-
-.itemCardLink {
-  width: 12em;
-  margin: 2em;
+  margin-bottom: 5em;
 }
 
 .itemCard {
-  border: 1px solid #275fb8;
+  width: 20em;
+  height: 34em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 1em;
+  border: 1px solid #8b8a8a;
   border-radius: 5%;
 }
 
-.itemCard:hover {
-  border: 1px solid #FF3333;
-}
 
-.itemCard:hover .containerImage {
-  border-bottom: 1px solid #FF3333;
+.itemCard:hover {
+  border: 1px solid #000000;
 }
 
 .itemCard:hover .description .containerDetailsPrice > .details {
@@ -232,24 +231,73 @@ main {
 }
 
 .containerImage {
-  height: 10em;
-  background-image: url(../images/Берцы\ Мастер.png);
+  height: 70%;
   background-position: center; 
   background-size: contain; 
   background-repeat: no-repeat;
-  border-bottom: 1px solid #275fb8;
+}
+
+.БотинкиКомфорт {
+  background-image: url(../images/Ботинки\ Комфорт.png);
+}
+
+.БотинкиКомфортУ {
+  background-image: url(../images/Ботинки\ \ Комфорт\ У.png);
+}
+
+.БотинкиКомфортМП {
+  background-image: url(../images/Ботинки\ Комфорт\ МП.png);
+}
+
+.БотинкиКомфортУМП {
+  background-image: url(../images/Ботинки\ Комфорт\ У\ МП.png);
+}
+
+.БотинкиМастер {
+  background-image: url(../images/Ботинки\ Мастер.png);
+}
+
+.БотинкиМастерУ {
+  background-image: url(../images/Ботинки\ Мастер\ У.png);
+}
+
+.БотинкиМастерМП {
+  background-image: url(../images/Ботинки\ Мастер\ МП.png);
+}
+
+.БотинкиМастерУМП {
+  background-image: url(../images/Ботинки\ Мастер\ У\ МП.png);
+}
+
+.БотинкиПрофи {
+  background-image: url(../images/Ботинки\ Профи.png);
+}
+
+.БотинкиПрофиУ {
+  background-image: url(../images/Ботинки\ Профи\ У.png);
 }
 
 .description {
+  align-self: center;
+  width: 100%;
+  height: 30%;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   align-items: center;
 }
 
 .itemName {
   font-size: 1.2em;
   font-weight: 800;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   margin: .5em .5em 1em .5em;
+}
+
+.itemName>* {
+  margin-right: .5em;
 }
 
 .containerDetailsPrice {
@@ -262,10 +310,12 @@ main {
 }
 
 .price {
-  font-size: 1.1em;
+  font-size: 1.2em;
+  font-weight: 700;
 }
 
 .details {
+  font-size: 1.2em;
   display: none;
   color: #FF3333;
 }
@@ -276,18 +326,39 @@ main {
 /*****FOOTER*****/
 footer {
   width: 100%;
-  height: 3em;
-
   display: flex;
-  align-items: center;
+  flex-direction: column;
+}
 
-
+.footerFirstLevel {
+  width: 100%;
+  padding-top: 1rem;
+  padding-left: 5rem;
   color: #f5f8f9;
   background-color: #275fb8;
 }
 
-footer >* {
-  margin-right: 1.5em;
+.footerSecondtLevel {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 1em;
 }
+
+.footerSecondtLevel>* {
+  margin-right: .5em;
+}
+
+.footerIconLogo {
+  width: 2em;
+  height: auto;
+}
+
+.nameGloboBel {
+  font-size: 1.2em;
+  font-weight: 600;
+  margin-right: 1em;
+}
+
 
 /*****end footer****/
