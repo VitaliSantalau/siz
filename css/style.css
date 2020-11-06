@@ -156,7 +156,8 @@ main {
 }
 
 .navCatalog {
-  min-width: 22.5em;
+  min-width: 26em;
+  max-width: 26em;
   display: flex;
   flex-direction: column;
   margin-right: 3em;
@@ -172,9 +173,9 @@ main {
   width: 100%;
 }
 
-.footIcon {
-  height: 2rem;
-  margin-right: .5rem;
+.groupIcon {
+  height: 1.6rem;
+  margin-right: .6rem;
 }
 
 

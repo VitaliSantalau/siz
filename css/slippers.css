@@ -1,0 +1,11 @@
+.foot ~ .containerSubgroup .boots {
+    color: #000000;
+  }
+  
+  .foot ~ .containerSubgroup .slippers {
+    color: #FF3333;
+  }
+  
+  .Тапочки {
+    background-image: url(../images/Тапочки.png);
+  }  

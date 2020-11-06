@@ -1,0 +1,41 @@
+.foot ~ .containerSubgroup .boots {
+    color: #000000;
+  }
+  
+  .clothes ~ .containerSubgroup .summerClothes {
+    color: #FF3333;
+  }
+  
+  .КостюмБренд {
+    background-image: url(../images/Костюм\ Бренд.png);
+  }  
+
+  .КостюмБренд1 {
+    background-image: url(../images/Костюм\ Бренд1.png);
+  }  
+
+  .КостюмЖенскийБренд {
+    background-image: url(../images/Костюм\ женский\ Бренд.png);
+  }  
+
+  .КостюмЖенскийБренд1 {
+    background-image: url(../images/Костюм\ женский\ Бренд1.png);
+  }  
+
+  .КостюмСтандартПлюс {
+    background-image: url(../images/Костюм\ Стандарт\ плюс.png);
+  }  
+
+  .КостюмУдарник {
+    background-image: url(../images/Костюм\ Ударник.png);
+  }  
+
+  .ХалатМужскойТехнолог {
+    background-image: url(../images/Халат\ мужской\ Технолог.png);
+  }  
+
+  .ХалатЖенскийТехнолог {
+    background-image: url(../images/Халат\ женский\ Технолог.png);
+  }  
+
+  

@@ -1,0 +1,13 @@
+.foot ~ .containerSubgroup .boots {
+    color: #000000;
+  }
+  
+  .clothes ~ .containerSubgroup .waterproofClothes {
+    color: #FF3333;
+  }
+  
+  .КостюмБренд {
+    background-image: url(../images/Костюм\ Бренд.png);
+  }  
+
+  
