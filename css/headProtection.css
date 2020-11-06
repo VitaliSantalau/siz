@@ -1,0 +1,23 @@
+.foot ~ .containerSubgroup .boots {
+  color: #000000;
+}
+
+.siz ~ .containerSubgroup .headProtection {
+  color: #FF3333;
+}
+
+.Бейсболка{
+  background-image: url(../images/Бейсболка.png);
+}  
+
+.КаскаЗащитная {
+  background-image: url(../images/Каска\ защитная.png);
+}  
+
+.ПодшлемникЛетний {
+  background-image: url(../images/Подшлемник\ летний.png);
+}  
+
+.ПодшлемникУтепленный {
+  background-image: url(../images/Подшлемник\ утепленный.png);
+}

@@ -1,0 +1,19 @@
+.foot ~ .containerSubgroup .boots {
+  color: #000000;
+}
+
+.siz ~ .containerSubgroup .eyeProtection {
+  color: #FF3333;
+}
+
+.ЗакрытыеЗащитныеОчки {
+  background-image: url(../images/Закрытые\ защитные\ очки.png);
+}  
+
+.ОткрытыеЗащитныеОчкиКлассик {
+  background-image: url(../images/Открытые\ защитные\ очки\ Классик.png);
+}  
+
+.ОткрытыеЗащитныеОчкиПРОКомфорт {
+  background-image: url(../images/Открытые\ защитные\ очки\ Комфорт.png);
+}  

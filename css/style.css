@@ -156,8 +156,8 @@ main {
 }
 
 .navCatalog {
-  min-width: 26em;
-  max-width: 26em;
+  min-width: 22em;
+  max-width: 22em;
   display: flex;
   flex-direction: column;
   margin-right: 3em;
@@ -375,3 +375,37 @@ footer {
 
 
 /*****end footer****/
+
+
+/*** PRODUCT ***/
+
+.product {
+  display: flex;
+  /*flex-direction: column;*/
+  margin: 5rem;
+}
+
+.imageProduct {
+  width: 20rem;
+  height: 25rem;
+  /*border-bottom: 1px solid;*/
+}
+
+.descriptionProduct {
+  margin: 1rem 5rem;
+}
+
+.descriptionProduct > h2 {
+  margin-bottom: 3rem;
+}
+
+.descriptionProduct > div {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.descriptionProduct strong {
+  margin-right: .5rem;
+}
+
+

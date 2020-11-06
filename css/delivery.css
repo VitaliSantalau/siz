@@ -1,0 +1,24 @@
+.catalog {
+  background-color: inherit;
+}
+
+main {
+  justify-content: center;
+}
+
+.about {
+  background-color: inherit;
+}
+
+.deliveryAndPayment {
+  background-color: #FF3333;
+}
+
+.deliveryText {
+  width: 70%;
+}
+
+.wordDELIVERY {
+  font-size: 2rem;
+  margin: 1rem 1rem;
+}

@@ -1,0 +1,27 @@
+.foot ~ .containerSubgroup .boots {
+  color: #000000;
+}
+
+.clothes ~ .containerSubgroup .acidClothes {
+  color: #FF3333;
+}
+
+.КостюмКЩСЛавсан {
+  background-image: url(../images/Костюм\ КЩС\ лавсан.png);
+}  
+
+.НарукавникиКЩС{
+  background-image: url(../images/Нарукавники\ КЩС.png);
+}  
+
+.ФартукКЩС {
+  background-image: url(../images/Фартук\ КЩС.png);
+}  
+
+.ХалатЖенскийКЩСЛавсан {
+  background-image: url(../images/Халат\ женский\ КЩС\ лавсан.png);
+}  
+
+.ХалатМужскойКЩСЛавсан {
+  background-image: url(../images/Халат\ мужской\ КЩС\ лавсан.png);
+}  
