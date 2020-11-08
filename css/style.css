@@ -324,9 +324,15 @@ main {
   margin-bottom: 1em;
 }
 
+.priceNds {
+  display: flex;
+  align-items: baseline;
+}
+
 .price {
   font-size: 1.2em;
   font-weight: 700;
+  margin-right: .2rem;
 }
 
 .details {
@@ -381,17 +387,18 @@ footer {
 
 .product {
   display: flex;
-  /*flex-direction: column;*/
   margin: 5rem;
 }
 
 .imageProduct {
   width: 20rem;
   height: 25rem;
-  /*border-bottom: 1px solid;*/
 }
 
-.descriptionProduct {
+.descriptionPriceProduct {
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
   margin: 1rem 5rem;
 }
 
@@ -406,6 +413,9 @@ footer {
 
 .descriptionProduct strong {
   margin-right: .5rem;
+} 
+
+.descriptionPriceProduct >.priceNds {
+  padding: 2rem 0;
+  border-top: 1px solid;
 }
-
-

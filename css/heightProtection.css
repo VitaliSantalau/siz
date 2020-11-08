@@ -1,0 +1,15 @@
+.foot ~ .containerSubgroup .boots {
+  color: #000000;
+}
+
+.siz ~ .containerSubgroup .heightProtection {
+  color: #FF3333;
+}
+
+.СтропА {
+  background-image: url(../images/Строп.png);
+}  
+
+.СтраховочнаяПривязь {
+  background-image: url(../images/Страховочная\ привязь.png);
+}  
