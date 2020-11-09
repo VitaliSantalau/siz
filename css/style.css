@@ -1,18 +1,10 @@
 /*color scheme **/
 /*
-#990000 - red 
-#FF3333 - light red
-
-#333399 - blue
-#3e5bb8 - blue 2
-#3d54bb - blue 3 - primary
+#FF3333 - red
 #275fb8 - blue from globe
 #000000 - black
-#373737 - light black
 #ffffff - white
-#f5f8f9 - dack white
 */
-
 
 html {
   height: 100%;
@@ -25,7 +17,6 @@ html {
 
 body {
   height: 100%;
-
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -396,7 +387,7 @@ footer {
 }
 
 .descriptionPriceProduct {
-  font-size: 1.2rem;
+  font-size: 1.4em;
   display: flex;
   flex-direction: column;
   margin: 1rem 5rem;
