@@ -169,7 +169,6 @@ main {
   margin-right: .6rem;
 }
 
-
 .group {
   width: 100%;
   display: flex;
@@ -409,4 +408,20 @@ footer {
 .descriptionPriceProduct >.priceNds {
   padding: 2rem 0;
   border-top: 1px solid;
+}
+
+/*** ABOUT && DELIVERY ***/
+
+.wordABOUT, .wordDELIVERY {
+  padding-left: 1em;
+}
+
+.aboutText, .deliveryText {
+  font-size: 1.8em;
+}
+
+.aboutText > p, .deliveryText > P {
+  text-indent: 1.5em;
+  text-align: justify;
+  margin-bottom: 1em;
 }
