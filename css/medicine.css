@@ -1,0 +1,8 @@
+.foot ~ .containerSubgroup .boots {
+  color: #000000;
+}
+
+.medicine:hover {
+  cursor: pointer;
+  color: #f5f8f9;
+}

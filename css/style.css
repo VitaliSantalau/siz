@@ -142,7 +142,7 @@ header {
 /*****MAIN*****/
 main {
   width: 100%;
-  flex-grow: 1;
+  flex: 1 0 auto;
   display: flex; 
 }
 
@@ -229,9 +229,12 @@ main {
 
 .containerImage {
   height: 70%;
-  background-position: center; 
-  background-size: contain; 
-  background-repeat: no-repeat;
+}
+
+.itemImage {
+  object-fit: contain;
+  height: 100%;
+  width: 100%;
 }
 
 .БотинкиКомфорт {
@@ -425,3 +428,17 @@ footer {
   text-align: justify;
   margin-bottom: 1em;
 }
+
+@media all and (max-width: 1050px) {
+}
+
+@media all and (max-width: 510px) {
+}
+@media all and (max-width: 470px) {
+}
+@media all and (max-width: 440px) {
+}
+@media all and (max-width: 420px) {
+}
+@media all and (max-width: 400px) {
+  }
