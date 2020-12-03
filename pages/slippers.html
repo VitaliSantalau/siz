@@ -100,16 +100,28 @@
           <a class="heightProtection subgroup" href="heightProtection.html">Защита при высотных работах</a>
           <a class="handProtection subgroup" href="handProtection.html">Защита рук</a>
         </div>
+        <div class="containerGroupSubgroup">
+          <div class="medicine group">
+            <img class="groupIcon" src="../icons/medicine.png" alt="">
+            <div class="groupText">Медицинские СИЗ</div>
+          </div>
+          <div class="containerSubgroup">
+            <a class="flap subgroup" href="flap.html">Щитки</a>
+            <a class="shoeCover subgroup" href="shoeCover.html">Бахилы</a>
+          </div>
+        </div>
       </nav>
-      <section class="products">
-        <a href="../products/Тапочки.html" class="itemCard">
-          <div class="containerImage Тапочки"></div>
+      <section class="products" itemscope itemtype="https://schema.org/ItemList">
+        <a href="../products/Тапочки.html" class="itemCard" itemprop="itemListElement" itemscope itemtype="https://schema.org/Product">
+          <div class="containerImage">
+            <img class="itemImage" src="../images/Тапочки.png" alt="photo a product" itemprop="image"/>
+          </div>
           <div class="description">
-            <div class="itemName">
+            <div class="itemName" itemprop="name">
               <p>Тапочки</p><p>(чувяки)</p><p>кожаные</p><p>на</p><p>подошве</p><p>из</p><p>пористой</p><p>резины</p></div>
             <div class="containerDetailsPrice">
-              <div class="priceNds">
-                <div class="price">17.60</div>
+              <div class="priceNds" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                <div class="price" itemprop="price">17.60</div>
                 <div class="nds">(без НДС)</div>
               </div> 
               <div class="details">подробнее </div>

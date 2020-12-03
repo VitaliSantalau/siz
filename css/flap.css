@@ -1,0 +1,7 @@
+.foot ~ .containerSubgroup .boots {
+    color: #000000;
+  }
+  
+  .medicine ~ .containerSubgroup .flap {
+    color: #FF3333;
+  }

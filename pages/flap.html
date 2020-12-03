@@ -11,7 +11,7 @@
     <link rel="icon" href="../favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="../css/reset.css" type="text/css">
     <link rel="stylesheet" href="../css/style.css" type="text/css">
-    <link rel="stylesheet" href="../css/medicine.css" type="text/css">
+    <link rel="stylesheet" href="../css/flap.css" type="text/css">
   </head>
   <body>
     <header>
@@ -102,10 +102,16 @@
           <a class="heightProtection subgroup" href="heightProtection.html">Защита при высотных работах</a>
           <a class="handProtection subgroup" href="handProtection.html">Защита рук</a>
         </div>
-        <a class="medicine group" href="#">
-          <img class="groupIcon" src="../icons/medicine.png" alt="">
-          <div class="groupText">Медицинские СИЗ</div>
-        </a>
+        <div class="containerGroupSubgroup">
+          <div class="medicine group">
+            <img class="groupIcon" src="../icons/medicineWhite.png" alt="">
+            <div class="groupText">Медицинские СИЗ</div>
+          </div>
+          <div class="containerSubgroup">
+            <a class="flap subgroup" href="#">Щитки</a>
+            <a class="shoeCover subgroup" href="shoeCover.html">Бахилы</a>
+          </div>
+        </div>
       </nav>
       <section class="products" itemscope itemtype="https://schema.org/ItemList">
         <a href="../products/Щиток защитный лицевой.html" class="itemCard" itemprop="itemListElement" itemscope itemtype="https://schema.org/Product">
@@ -125,32 +131,16 @@
             </div>
           </div>
         </a>
-        <a href="../products/Щиток защитный лицевой.html" class="itemCard" class="itemCard" itemprop="itemListElement" itemscope itemtype="https://schema.org/Product">
+        <a href="../products/Щиток защитный лицевой с подъемным экраном.html" class="itemCard" class="itemCard" itemprop="itemListElement" itemscope itemtype="https://schema.org/Product">
           <div class="containerImage">
             <img class="itemImage" src="../images/щиток подъемный экран.png" alt=""/>
           </div>
           <div class="description">
-            <div class="itemName">
+            <div class="itemName" itemprop="name">
               <p>Щиток</p><p>защитный</p><p>лицевой</p><p>c</p><p>подъемным</p><p>экраном</p></div>
             <div class="containerDetailsPrice">
-              <div class="priceNds">
-                <div class="price">8.20</div>
-                <div class="nds">(без НДС)</div>
-              </div> 
-              <div class="details">подробнее </div>
-            </div>
-          </div>
-        </a>
-        <a href="../products/Щиток защитный лицевой.html" class="itemCard">
-          <div class="containerImage">
-            <img class="itemImage" src="../images/Бахилы.png" alt=""/>
-          </div>
-          <div class="description">
-            <div class="itemName">
-              <p>Бахилы</p><p>прочные </p><p>3гр*30 мкр</p></div>
-            <div class="containerDetailsPrice">
-              <div class="priceNds">
-                <div class="price">4.00</div>
+              <div class="priceNds" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                <div class="price" itemprop="price">8.20</div>
                 <div class="nds">(без НДС)</div>
               </div> 
               <div class="details">подробнее </div>
