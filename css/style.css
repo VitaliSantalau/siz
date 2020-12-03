@@ -231,12 +231,16 @@ main {
 
 .containerImage {
   height: 70%;
+  position: relative;
+  padding-top: 56.25%;
 }
 
 .itemImage {
-  object-fit: contain;
-  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
   width: 100%;
+  height: auto;
 }
 
 .БотинкиКомфорт {
