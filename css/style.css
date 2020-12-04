@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 /*color scheme **/
 /*
 #FF3333 - red
@@ -10,6 +17,7 @@ ffffff - whiteIcon
 
 html {
   height: 100%;
+  width: 100%;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
   'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
   sans-serif;
@@ -19,9 +27,17 @@ html {
 
 body {
   height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 /*****HEADER********/
@@ -31,16 +47,27 @@ header {
 
 .headerFirstLevel {
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   padding-top: 1rem;
 }
 
 .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: flex-end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
   margin: 1em;
 }
 
@@ -50,30 +77,52 @@ header {
 }
 
 .textLogo {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   margin-bottom: .2em;
 }
 
 .siteName {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-size: 2.5em;
   font-weight: 800;
 }
 
 .slogan {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-size: .7em;
   letter-spacing: -.03rem;
 }
 
 .contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .contacts>* {
@@ -81,10 +130,19 @@ header {
 }
 
 .addresses {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 
 .address {
@@ -93,8 +151,13 @@ header {
 }
 
 .timeTable {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .timeTable>* {
@@ -102,9 +165,16 @@ header {
 }
 
 .phones {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .phone {
@@ -116,9 +186,16 @@ header {
 .headerSecondLevel {
   width: 100%;
   height: 2.8em;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  flex-wrap: wrap;
   font-size: 1.1em;
   font-weight: 500;
   color: #f5f8f9;
@@ -144,15 +221,24 @@ header {
 /*****MAIN*****/
 main {
   width: 100%;
-  flex: 1 0 auto;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex; 
 }
 
 .navCatalog {
   min-width: 22em;
   max-width: 22em;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   margin-right: 3em;
   margin-bottom: 5em;
 }
@@ -173,9 +259,14 @@ main {
 
 .group {
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   font-size: 1.6em;
   padding: .2rem 0 .2rem 2rem;
   color: #f5f8f9;
@@ -186,8 +277,12 @@ main {
 
 .subgroup {
   font-size: 1.4em;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin: .5rem 0;
   padding-left: 6em;
   color: #000000;
@@ -202,9 +297,14 @@ main {
 }
 
 .products {
-  flex-grow: 1;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   margin-top: 3em;
   margin-bottom: 5em;
 }
@@ -212,9 +312,16 @@ main {
 .itemCard {
   width: 20em;
   height: 34em;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin: .5em;
   border: 1px solid #8b8a8a;
   border-radius: 5%;
@@ -230,7 +337,8 @@ main {
 }
 
 .containerImage {
-  height: 70%;
+  width: 100%;
+  height: 24em;
   position: relative;
   padding-top: 56.25%;
 }
@@ -244,21 +352,36 @@ main {
 }
 
 .description {
-  align-self: center;
+  -ms-flex-item-align: center;
+      align-self: center;
   width: 100%;
-  height: 30%;
+  height: 10em;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .itemName {
   font-size: 1.2em;
   font-weight: 800;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   margin: .5em .5em 1em .5em;
 }
 
@@ -268,16 +391,27 @@ main {
 
 .containerDetailsPrice {
   width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   margin-bottom: 1em;
 }
 
 .priceNds {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: baseline;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
 }
 
 .price {
@@ -298,8 +432,13 @@ main {
 /*****FOOTER*****/
 footer {
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .footerFirstLevel {
@@ -311,19 +450,20 @@ footer {
 }
 
 .footerSecondtLevel {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
   padding: 1em;
 }
 
 .footerSecondtLevel>* {
   margin-right: .5em;
-}
-
-.footerIconLogo {
-  width: 2em;
-  height: auto;
 }
 
 .nameGloboBel {
@@ -337,6 +477,8 @@ footer {
 /*** PRODUCT ***/
 
 .product {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin: 5rem;
 }
@@ -348,8 +490,13 @@ footer {
 
 .descriptionPriceProduct {
   font-size: 1.4em;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   margin: 1rem 5rem;
 }
 
@@ -358,6 +505,8 @@ footer {
 }
 
 .descriptionProduct > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-bottom: 1rem;
 }
@@ -387,6 +536,113 @@ footer {
   margin-bottom: 1em;
 }
 
+@media all and (max-width: 360px) {
+
+  .headerFirstLevel {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0em;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .logoMobile {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .slogan {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: .95em;
+    font-weight: 600;
+    padding-top: .2em;
+    padding-bottom: .5em;
+    /*background-color: #275fb8;
+    color: #f5f8f9;*/
+  }
+
+  .contacts {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .addresses, .emailAddress, .timeTable, .phones {
+    display: none;
+  }
+
+  
+
+  .contacts>* {
+    margin-right: 0;
+  }
+
+  /*****MAIN*****/
+  .navCatalog {
+    display: none;
+  }
+
+  .products {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .itemCard {
+    width: 18em;
+    height: 28em;
+  }
+
+  .containerImage {
+    height: 18em;
+  }
+
+  .itemImage {
+    height: 100%;
+  }
+
+  .description {
+    height: 10em;
+  }
+
+  /*****FOOTER*****/
+  
+  .footerSecondtLevel {
+    width: 100%;
+    height: 5em;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: .8em;
+    margin-bottom: 1em;
+  }
+
+  .symbol {
+    display: none;
+  }
+
+  .textResource {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  
+}
+
+
+
+
+
+
+
+
+/*
 @media all and (min-width: 1080px) {
   html {
     font-size: 0.61em;
@@ -451,4 +707,4 @@ footer {
   .navCatalog {
     min-width: 25em;
   }
-}
+}*/
