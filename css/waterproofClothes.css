@@ -5,21 +5,3 @@
   .clothes ~ .containerSubgroup .waterproofClothes {
     color: #FF3333;
   }
-  
-  .КостюмВлагозащитный {
-    background-image: url(../images/Костюм\ влагозащитный.png);
-  }  
-
-  .ПлащВлагозащитный {
-    background-image: url(../images/Плащ\ влагозащитный.png);
-  } 
-
-  .ПлащЖелтыйВлагозащитный {
-    background-image: url(../images/Плащ\ желтый\ влагозащитный\ со\ СОП.png);
-  } 
-
-  .ПлащОранжевыйВлагозащитный {
-    background-image: url(../images/Плащ\ оранжевый\ влагозащитный\ со\ СОП.png);
-  } 
-
-  

@@ -5,31 +5,3 @@
   .clothes ~ .containerSubgroup .winterClothes {
     color: #FF3333;
   }
-  
-  .КостюмУтепленныйМужскойБренд {
-    background-image: url(../images/Костюм\ утепленный\ мужской\ Бренд.png);
-  }  
-
-  .КостюмУтепленныйЖенскийЗима {
-    background-image: url(../images/Костюм\ утепленный\ женский\ Зима.png);
-  }  
-
-  .КурткаМужскаяБигадир {
-    background-image: url(../images/Куртка\ мужская\ Бригадир.png);
-  }  
-
-  .КурткаУтепленнаяЖенскаяОнега {
-    background-image: url(../images/Куртка\ утепленная\ женская\ Онега.png);
-  }  
-
-  .ПолукомбинезонМужскойУтепленный {
-    background-image: url(../images/Полукомбенизон\ мужской\ утепленный.png);
-  }  
-
-  .БрюкиМужскиеУтепленные {
-    background-image: url(../images/Брюки\ мужские\ утепленные.png);
-  }  
-
-  .ЖилетУтепленныйМужскойБренд {
-    background-image: url(../images/Жилет\ утепленный\ мужской\ Бренд.png);
-  }  

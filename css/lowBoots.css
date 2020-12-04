@@ -5,27 +5,3 @@
 .foot ~ .containerSubgroup .lowBoots {
   color: #FF3333;
 }
-
-.ПолуботинкиКомфорт {
-  background-image: url(../images/Полуботинки\ Комфорт.png);
-}
-
-.ПолуботинкиКомфортМП {
-  background-image: url(../images/Полуботинки\ Комфорт\ МП.png);
-}
-
-.ПолуботинкиМастер {
-  background-image: url(../images/Полуботинки\ Мастер.png);
-}
-
-.ПолуботинкиМастерМП {
-  background-image: url(../images/Полуботинки\ Мастер\ МП.png);
-}
-
-.ПолуботинкиПрофи{
-  background-image: url(../images/Полуботинки\ Профи.png);
-}
-
-.ПолуботинкиПрофиМП {
-  background-image: url(../images/Полуботинки\ Профи\ МП.png);
-}

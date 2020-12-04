@@ -5,15 +5,3 @@
 .siz ~ .containerSubgroup .hearingProtection {
   color: #FF3333;
 }
-
-.НаушникиПротивошумныеИсток{
-  background-image: url(../images/Наушники\ противошумные.png);
-}  
-
-.НаушникиПротивошумныеCкладныеИсток{
-  background-image: url(../images/Наушники\ противошумные\ складные.png);
-}
-
-.НаушникиПротивошумныеИстокСКреплением{
-  background-image: url(../images/Наушники\ противошумные\ с\ креплением\ на\ каску.png);
-}

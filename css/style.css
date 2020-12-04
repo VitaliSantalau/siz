@@ -167,8 +167,8 @@ main {
 }
 
 .groupIcon {
-  height: 1.6rem;
-  margin-right: .6rem;
+  height: 1.6em;
+  margin-right: .6em;
 }
 
 .group {
@@ -176,7 +176,7 @@ main {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  font-size: 1.6rem;
+  font-size: 1.6em;
   padding: .2rem 0 .2rem 2rem;
   color: #f5f8f9;
   background-color: rgba(39, 95, 184, .9);
@@ -185,11 +185,11 @@ main {
 }
 
 .subgroup {
-  font-size: 1.4rem;
+  font-size: 1.4em;
   display: flex;
   align-items: center;
   margin: .5rem 0;
-  padding-left: 6rem;
+  padding-left: 6em;
   color: #000000;
 }
 
@@ -205,7 +205,7 @@ main {
   flex-grow: 1;
   display: flex;
   flex-wrap: wrap;
-  margin-top: 3rem;
+  margin-top: 3em;
   margin-bottom: 5em;
 }
 
@@ -215,7 +215,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin: 1em;
+  margin: .5em;
   border: 1px solid #8b8a8a;
   border-radius: 5%;
 }
@@ -241,54 +241,6 @@ main {
   top: 0;
   width: 100%;
   height: auto;
-}
-
-.БотинкиКомфорт {
-  background-image: url(../images/Ботинки\ Комфорт.png);
-}
-
-.БотинкиКомфортУ {
-  background-image: url(../images/Ботинки\ \ Комфорт\ У.png);
-}
-
-.БотинкиКомфортМП {
-  background-image: url(../images/Ботинки\ Комфорт\ МП.png);
-}
-
-.БотинкиКомфортУМП {
-  background-image: url(../images/Ботинки\ \ Комфорт\ У\ МП.png);
-}
-
-.БотинкиМастер {
-  background-image: url(../images/Ботинки\ Мастер.png);
-}
-
-.БотинкиМастерУ {
-  background-image: url(../images/Ботинки\ Мастер\ У.png);
-}
-
-.БотинкиМастерМП {
-  background-image: url(../images/Ботинки\ Мастер\ МП.png);
-}
-
-.БотинкиМастерУМП {
-  background-image: url(../images/Ботинки\ Мастер\ У\ МП.png);
-}
-
-.БотинкиПрофи {
-  background-image: url(../images/Ботинки\ Профи.png);
-}
-
-.БотинкиПрофиУ {
-  background-image: url(../images/Ботинки\ Профи\ У.png);
-}
-
-.БотинкиПрофиМП {
-  background-image: url(../images/Ботинки\ Профи\ МП.png);
-}
-
-.БотинкиПрофиУМП {
-  background-image: url(../images/Ботинки\ Профи\ У\ МП.png);
 }
 
 .description {
@@ -353,7 +305,7 @@ footer {
 .footerFirstLevel {
   width: 100%;
   padding-top: 1rem;
-  padding-left: 5rem;
+  padding-left: 5em;
   color: #f5f8f9;
   background-color: #275fb8;
 }
@@ -435,16 +387,68 @@ footer {
   margin-bottom: 1em;
 }
 
-@media all and (max-width: 1050px) {
+@media all and (min-width: 1080px) {
+  html {
+    font-size: 0.61em;
+  }
 }
 
-@media all and (max-width: 510px) {
-}
-@media all and (max-width: 470px) {
-}
-@media all and (max-width: 440px) {
-}
-@media all and (max-width: 420px) {
-}
-@media all and (max-width: 400px) {
+@media all and (min-width: 1230px) {
+  html {
+    font-size: 0.7em;
   }
+}
+
+@media all and (min-width: 1380px) {
+  html {
+    font-size: 0.75em;
+  }
+}
+
+@media all and (min-width: 1540px) {
+  html {
+    font-size: 0.83em;
+  }
+}
+
+@media all and (min-width: 1690px) {
+  html {
+    font-size: 0.9em;
+  }
+  .navCatalog {
+    min-width: 23em;
+  }
+}
+
+@media all and (min-width: 1900px) {
+  html {
+    font-size: 1em;
+  }
+}
+
+@media all and (min-width: 2250px) {
+  html {
+    font-size: 1.1em;
+  }
+  .navCatalog {
+    min-width: 23em;
+  }
+}
+
+@media all and (min-width: 2310px) {
+  html {
+    font-size: 1.1em;
+  }
+  .navCatalog {
+    min-width: 24em;
+  }
+}
+
+@media all and (min-width: 2450px) {
+  html {
+    font-size: 1.2em;
+  }
+  .navCatalog {
+    min-width: 25em;
+  }
+}

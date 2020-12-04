@@ -5,11 +5,3 @@
 .clothes ~ .containerSubgroup .weldingClothes{
   color: #FF3333;
 }
-
-.КостюмСварщикаБрезентовый {
-  background-image: url(../images/Костюм\ сварщика\ брезентовый.png);
-}  
-
-.КостюмСварщикаСпилковый {
-  background-image: url(../images/Костюм\ сварщика\ спилковый.png);
-}  

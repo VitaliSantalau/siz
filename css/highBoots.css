@@ -5,38 +5,3 @@
   .foot ~ .containerSubgroup .highBoots {
     color: #FF3333;
   }
-  
-  .СапогиМастер {
-    background-image: url(../images/САПОГИ\ Мастер.png);
-  }
-
-  .СапогиМастерУ {
-    background-image: url(../images/САПОГИ\ Мастер\ У.png);
-  }
-
-  .СапогиМастерМП {
-    background-image: url(../images/САПОГИ\ Мастер\ МП.png);
-  }
-
-  .СапогиМастерУМП {
-    background-image: url(../images/САПОГИ\ Мастер\ У\ МП.png);
-  }
-
-  .СапогиПрофи {
-    background-image: url(../images/Сапоги\ Профи.png);
-  }
-
-  .СапогиПрофиУ {
-    background-image: url(../images/Сапоги\ Профи\ У.png);
-  }
-
-  .СапогиПрофиМП {
-    background-image: url(../images/Сапоги\ Профи\ МП.png);
-  }
-
-  .СапогиПрофиУМП {
-    background-image: url(../images/Сапоги\ Профи\ У\ МП.png);
-  }
-  
-  
-  
