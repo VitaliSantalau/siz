@@ -10,11 +10,29 @@ main {
   background-color: #FF3333;
 }
 
+.aboutMobile {
+  background-color: #f5f8f9;
+}
+
 .aboutText {
   width: 70%;
 }
 
 .wordABOUT {
-  font-size: 2rem;
-  margin: 1rem 1rem;
+  font-size: 2em;
+  margin: 1em 1em;
+}
+
+@media all and (max-width: 660px) {
+  .aboutText {
+    width: 90%;
+    font-size: 1em;
+  }
+
+  .wordABOUT {
+    font-size: 1.1em;
+    margin: 1em 1em;
+  }
+
+
 }

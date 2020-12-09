@@ -1,0 +1,7 @@
+.foot ~ .containerSubgroup .boots {
+    color: #000000;
+  }
+  
+  .medicine ~ .containerSubgroup .medicineMasks {
+    color: #FF3333;
+  }

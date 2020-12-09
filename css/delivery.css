@@ -14,11 +14,26 @@ main {
   background-color: #FF3333;
 }
 
+.deliveryAndPaymenMobile {
+  background-color: ##f5f8f9;
+}
+
 .deliveryText {
   width: 70%;
 }
 
 .wordDELIVERY {
-  font-size: 2rem;
-  margin: 1rem 1rem;
+  font-size: 2em;
+  margin: 1em 1em;
 }
+
+@media all and (max-width: 660px) {
+  .deliveryText {
+    width: 90%;
+    font-size: 1em;
+  }
+
+  .wordDELIVERY {
+    font-size: 1.1em;
+    margin: 1em 1em;
+  }
